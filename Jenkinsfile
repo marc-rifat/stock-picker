@@ -1,7 +1,7 @@
 pipeline {
     agent any
     triggers {
-        cron('0 0 1 * *')
+        // cron('0 0 1 * *')
     }
     environment {
         PYTHON_PATH = '/Library/Frameworks/Python.framework/Versions/3.12/bin/python3'
